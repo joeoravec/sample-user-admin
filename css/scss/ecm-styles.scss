@@ -1,0 +1,74 @@
+/* FORMS */
+  #form-one-column {
+    margin: 0 auto;
+    width: 760px;
+  }
+  fieldset {
+    margin: 10px auto;  
+    padding: 10px auto;
+    border: 1px solid #ddd;
+    ul {
+      padding: 1em 1em 0 1em;  
+      list-style: none; margin: 0 auto;
+      li {
+        float: left; 
+        clear: left;
+        padding-bottom: 0.8em;
+        p {
+          padding: 0;
+          margin: 0 0 0 13em;
+          font-family: Geneva, Arial, Helvetica, sans-serif;
+          font-size: 16px;          
+          &.inputNote {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+    label {
+      padding-top: 3px;
+      float: left; text-align: right;
+      width: 10em;
+      margin-right: 0.5em;
+      font-family: Geneva, Arial, Helvetica, sans-serif;
+      font-size: 16px;
+    }
+  }
+  .fieldLarge {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 3px 3px 3px 3px;
+    width: 350px;
+    border: 1px solid #999;
+    margin: 0;
+  }
+
+  #reportingResults {
+    table {
+      width: 100%;
+      margin-top: 2em;
+      font-family: Geneva, Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      border: 1px solid 000;
+      caption {
+        font-size: 12px;
+        font-weight: bold;
+      } 
+      th {
+        font-weight: bold;
+        background: #ccc;
+        a {
+          color: #333333;
+        }
+      }
+      td {
+        border: 1px solid 000;
+        a {
+          color: #333333;
+        }
+      }
+    }
+    .evenRow {
+      background: #eeeeee;
+    }
+  }
